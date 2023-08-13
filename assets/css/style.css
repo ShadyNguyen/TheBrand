@@ -27,6 +27,10 @@ html{
 4. kiểu dáng (kiểu chữ, hình tròn, vuông, ...)
 */
 
+.clear{
+    clear: both;
+}
+
 #main{
 
 }
@@ -188,8 +192,27 @@ html{
     line-height: 1.4;
 }
 
+#content .member-list{
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
+
 #content .member-item{
-    
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+    /* width: calc(100% / 3); */
+}
+
+#content .member-name{
+    font-size: 15px;
+    text-align: center;
+}
+
+#content .member-img{
+   margin-top: 15px;
+   width: 154px;
+   border-radius: 5px;
 }
 
 /* test commit */
