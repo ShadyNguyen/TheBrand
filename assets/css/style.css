@@ -315,8 +315,31 @@ html{
 
 .place-buy-btn:hover{
     color: #000;
+    background: #fff;
+    border-color: transparent;
 }
 
+
+/* contact */
+
+.contact-body{
+    display: flex;
+    margin: auto 25%;
+
+}
+
+
+.contact-left{
+    display: grid;   
+}
+
+.contact-left i{
+    margin: 5px ;
+}
+
+.contact-right{
+    
+}
 
 
 /* test commit */
@@ -340,7 +363,7 @@ html{
     bottom: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.4);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -350,6 +373,18 @@ html{
     min-height: 200px;
     width: 900px;
     position: relative;
+}
+
+.modal-close{
+    background: #009689;
+    line-height: 2.5rem;
+    padding-right: 15px;
+    text-align: right;
+    color: #fff;
+}
+
+.modal-close i:hover{
+    background: grey;
 }
 
 .modal-header{
@@ -365,3 +400,53 @@ html{
 .modal-heading-icon{
     margin: 16px;
 }
+
+.modal-body{
+    margin: 10px 15px;
+}
+
+.modal-label{
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.modal-input{
+    width: 100%;
+    height: 40px;
+}
+
+.modal-body button{
+    margin:15px 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    border-color: transparent;
+    background-color:  #009689;
+}
+
+.modal-footer{
+    margin: 15px 15px;
+}
+
+.modal-off{
+    width: 85px;
+    height: 40px;
+    border-color: transparent;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1rem;
+}
+
+.modal-help{
+    float: right;
+    line-height: 2.5rem;
+}
+
+.modal-help a{
+    color: rgb(50, 165, 165);
+}
+
