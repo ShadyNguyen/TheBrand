@@ -366,13 +366,20 @@ html{
     display: none;
     align-items: center;
     justify-content: center;
+    max-width: calc(100% - 32px);
+}
+
+.modal.open{
+    display: flex;
 }
 
 .modal-container{
     background: #fff;
+    max-width: calc(100% - 32px);
     min-height: 200px;
     width: 900px;
     position: relative;
+    animation: modalFadeIn ease 0.8s;
 }
 
 .modal-close{
@@ -425,6 +432,12 @@ html{
     color: #fff;
     border-color: transparent;
     background-color:  #009689;
+    font-size: 18px;
+}
+
+#buy-tickets:hover{
+    background: #ccc;
+    color: #fff;
 }
 
 .modal-footer{
@@ -441,6 +454,11 @@ html{
     line-height: 1rem;
 }
 
+.modal-off:hover{
+    background: #ccc;
+    color: #fff;
+}
+
 .modal-help{
     float: right;
     line-height: 2.5rem;
@@ -450,3 +468,13 @@ html{
     color: rgb(50, 165, 165);
 }
 
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-180px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
