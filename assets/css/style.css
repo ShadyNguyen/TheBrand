@@ -52,6 +52,7 @@ html{
 }
 
 .col-half{
+    font-size: 18px;
     width: 50%;
 }
 
@@ -63,7 +64,6 @@ html{
 .col-full{
     width: 100%;
 }
-
 
 
 /* custom */
@@ -348,10 +348,45 @@ html{
 
 /* contact */
 
-.contact-content{
-    margin-top: 48px;   
+#content .contact-section{
+    padding: 64px 0;
 }
 
+.icon-detail {
+    width: 30px;
+    padding-bottom: 15px;
+}
+
+.form-control{
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 40px;
+    padding: 0 8px;
+    margin-top: 10px;
+}
+
+.btn-send {
+    margin: 16px 0;
+    float: right;
+    padding: 8px 16px;
+    color: #ffff;
+    background-color: black;
+}
+
+.btn-send:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ /* map */
+#content .map-section {
+    padding: 64px 0;
+}
+
+
+ .map-detail {
+    width: 100%;
+ }
 
 /* test commit */
 
