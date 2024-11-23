@@ -1,0 +1,28 @@
+/* 
+    PC: >= 1024PX, 
+    Tablet: >= 740px & < 1024px,
+    Mobile: < 740px
+*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header {
+        position: relative;
+    }
+
+    #header .search-icons {
+        font-size: 16px;
+    }
+
+    #slider {
+        margin-top: 0;
+    }
+
+    #content .content-section {
+        width: 768px;
+        padding: 64px 16px;
+    }
+
+}
+
+@media (max-width: 739px) {
+    
+}
